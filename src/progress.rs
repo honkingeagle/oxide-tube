@@ -6,7 +6,6 @@ use std::fmt::Write;
 pub fn progress(stream: Stream) -> Result<()> {
     let total_size = stream.blocking_content_length()?;
     let pb = ProgressBar::new(total_size);
-    let new_pb = pb.clone();
 
     pb.set_style(ProgressStyle::with_template("{spinner:.green} [{elapsed_precise}] [{wide_bar:.cyan/blue}] {bytes}/{total_bytes} ({eta})")
     .unwrap()
