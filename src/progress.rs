@@ -19,10 +19,6 @@ pub fn progress(stream: Stream) -> Result<()> {
         pb.set_position(args.current_chunk as u64);
     });
 
-    let callback = callback.connect_on_complete_closure(move |_| {
-        new_pb.finish_with_message("Your video is ready 🎊");
-    });
-
     stream.blocking_download_with_callback(callback)?;
 
     Ok(())
