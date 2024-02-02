@@ -25,3 +25,5 @@ To execute the binary, type `./oxide-tube --help` in the current folder.
 You could choose to write the path to .bashrc (or use whatever way your OS lets you write environment variables).
 
 You could also add the binary to your `/usr/bin` directory.
+
+And then execute `oxide-tube` like an ordinary cmd.
