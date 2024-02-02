@@ -30,4 +30,4 @@ And then execute `oxide-tube` like an ordinary cmd.
 
 # Issues
 
-The program sometimes downloads videos without any audio.
+The program downloads videos without any audio. It may be caused by an underlying issue with the rustube.
