@@ -30,5 +30,5 @@ And then execute `oxide-tube` like an ordinary cmd.
 
 # Issues
 
-1. The program downloads videos without any audio. It may be caused by an underlying issue with the rustube crate.
+1. The program sometimes downloads videos without any audio. It may be caused by either a video having no audio at all or an underlying issue with the rustube crate.
 2. Can't download movies with such a url: `https://youtu.be/XoiOOiuH8iI?si=Sbczejrty7nkLJyF`. You have to copy the url from      the address bar.
