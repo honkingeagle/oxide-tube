@@ -27,3 +27,7 @@ You could choose to write the path to .bashrc (or use whatever way your OS lets 
 You could also add the binary to your `/usr/bin` directory.
 
 And then execute `oxide-tube` like an ordinary cmd.
+
+# Issues
+
+The program sometimes downloads videos without any audio.
